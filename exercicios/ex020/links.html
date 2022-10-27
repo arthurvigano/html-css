@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links personalizados</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5em;
+        }
+        
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:active{
+            color: brown;
+            background-color: aqua;
+        }
+
+        a::before{
+            content: '- ';
+        }
+
+        a::after{
+            content: ' -';
+        }
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a href="https://twitter.com/onagiv" target="_blank" rel="external">Twitter</a></li>
+        <li><a href="https://instagram.com/arthurvigano" target="_blank" rel="external">Instagram</a></li>
+        <li><a href="https://facebook.com/arthur.vigano" target="_blank" rel="external">Facebook</a></li>
+    </ul>
+</body>
+</html>

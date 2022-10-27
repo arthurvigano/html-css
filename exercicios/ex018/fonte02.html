@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: FonteTeste;
+            src: url(fonts/OldLondon.ttf) format('opentype'), url(fonts/OldLondonAlternate.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*TIPOS DE FORMAT() ttf e otf são usados pela maioria dos navegadores
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple advanced typography)
+            - svg*/
+        }
+        body{
+            font-family: 'FonteTeste';
+            font-size: 3em;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Baixando fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis impedit explicabo nihil debitis dolorum ea aliquid vero consequatur, omnis ipsa ratione, ducimus, fugit nobis cum et deleniti quasi ullam nesciunt!</p>
+</body>
+</html>

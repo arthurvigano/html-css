@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            text-align: center;
+        }
+        div{
+            background-color: lightgray;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px dashed black;
+        }
+        div:hover{
+            background-color: brown;
+        }
+        p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            font-size: 0.8em;
+            padding: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: purple;
+        }
+        a:hover{
+            background-color: aquamarine;
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a::before{
+            content: '1 ';
+        }
+        a::after{
+            content: ' 2';
+        }
+        a:visited{
+            color: aqua;
+        }
+        a:active{
+            color: black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste com Hover</h1>
+    <p>Neste caso será testado tudo que foi aprendido sobre as pseudo-classes e pseudo-elementos.</p>
+    <div>Teste 01
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nesciunt accusamus rem. Magni assumenda culpa sed, quam ipsam impedit blanditiis, ad est in laboriosam aut architecto quaerat ullam et iure?</p>
+    </div>
+    <div>Teste 02
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nulla facere beatae at placeat libero unde eligendi nostrum assumenda! Rem inventore et nostrum accusantium veritatis ducimus voluptates quod est consequatur.</p>
+    </div>
+    <div>Teste 03
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit veniam recusandae doloremque quidem similique architecto placeat molestias animi neque numquam sequi commodi totam, maxime, labore magnam non dicta a?</p>
+    </div>
+    <h2>Redes Sociais do autor:</h2>
+    <ul>
+        <li><a href="https://twitter.com/onagiv" target="_blank" rel="external">Twitter</a></li>
+        <li><a href="https://instagram.com/arthurvigano" target="_blank" rel="externak">Instagram</a></li>
+        <li><a href="https://facebook.com/arthur,vigano" target="_blank" rel="external">Facebook</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        /*
+        #   = id
+        .   = class
+        :   = pseudo-classe
+        ::  = pseudo-elemento
+        >   = children
+    */
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: gray;
+        }
+
+        div{
+            text-align: center;
+            height: 240px;
+            width: 240px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        div:hover{
+            background-color: brown;
+        }
+
+        p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>01
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit totam hic laudantium voluptas odit nam eaque, provident nesciunt voluptatem, doloremque sed vero natus accusantium neque adipisci dolores, inventore possimus architecto.</p>
+    </div>
+    <div>02
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat dolorum facilis velit molestias totam consequatur, quo a unde eius asperiores hic vero modi? Incidunt iste alias suscipit soluta porro.</p>
+    </div>
+    <div>03
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quos, ab modi aliquam neque blanditiis temporibus aspernatur omnis consectetur pariatur placeat soluta veritatis numquam! Quod tempora laudantium quia nisi. Quo!</p>
+    </div>
+    <div>04
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptates maiores eum iste. Harum tempore eius eveniet perferendis suscipit facilis odit nulla consequatur quisquam perspiciatis, dolore laborum nostrum neque placeat!</p>
+    </div>
+    <div>05
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dolorem porro iste eius qui blanditiis, culpa quaerat magni nobis sequi? Ullam animi qui voluptate officiis omnis. Hic deleniti placeat veritatis?</p>
+    </div>
+    <div>06
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto libero fugit amet officiis consequatur repudiandae qui nulla consequuntur, perspiciatis, in commodi delectus ratione tempora veniam deleniti quos unde. Magni, placeat.</p>
+    </div>
+    <div>07
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dicta esse, inventore nihil voluptate velit maiores asperiores ex nam tenetur dolore placeat commodi aperiam id quos totam sequi dolor et?</p>
+    </div>
+    <div>08
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, sed exercitationem! Quisquam quae ut sit magnam quasi incidunt unde illum ducimus quas ipsum explicabo veniam beatae, assumenda expedita aperiam rerum.</p>
+    </div>
+    <div>09
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, magnam aut. Libero, saepe debitis commodi accusamus ex quos rerum at dolorum repellendus perspiciatis maiores exercitationem! Odio quasi aperiam voluptates enim.</p>
+    </div>
+</body>
+</html>
